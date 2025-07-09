@@ -1,4 +1,12 @@
-"""All the project constants"""
+"""All the project constants
+
+This module contains all the constants and directory paths used throughout the project.
+It includes paths for base directories, data, temporary storage, and logs. The module
+also includes format strings for logging and datetime formatting.
+
+Constants are set up and directories are created if they do not already exist.
+
+"""
 
 from pathlib import Path
 
@@ -22,3 +30,4 @@ DATETIME_FMT = '%Y-%m-%d-%H-%M-%S'
 # TIME_FORMAT = 'ISO8601'
 
 # [OTHER]
+# Placeholder for additional constants or configurations
